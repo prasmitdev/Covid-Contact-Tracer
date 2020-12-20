@@ -1,0 +1,33 @@
+<html>
+	<head>
+		
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+		type="text/css" rel="stylesheet" />
+		
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js" ></script>
+	</head>
+	<body>
+		
+		<div class="container">
+			<h1 class="wordart slate text">Welcome to Covid Contact Tracer Registration</h1><br>
+			<form method="POST" action="/person">
+				<div class="form-group">
+
+					First name: <input type="text" placeholder="Enter first name" class="form-control"  id="firstname" name="firstname" /><br />
+					Last name: <input type="text" placeholder="Enter last name" class="form-control"  id="lastname" name="lastname" /><br />
+					Phone: <input type="tel" placeholder="Enter your phone number" class="form-control"  id="phone" name="phone" /><br />
+					Email: <input type="email" placeholder="Enter your email" class="form-control"  id="email" name="email" /><br />
+				</div>
+				<input type="submit" class="btn btn-primary" value="Submit" />
+			</form>
+		</div>
+		<style>
+			.form-group{
+				justify-content: center;
+				padding-right: 60%;
+			}
+				
+		</style>
+		
+	</body>
+</html>
